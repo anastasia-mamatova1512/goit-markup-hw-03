@@ -220,6 +220,11 @@ img{
     text-align: center;
 }
 
+.section-portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-header{
     font-weight: 700;
     font-size: 36px;
@@ -228,10 +233,27 @@ img{
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+
+    margin-bottom: 72px;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-item{
     background-color: #FFFFFF;
+
+    width: calc((100% - 48px)/3);
+}
+
+.app-about{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-item-header{
@@ -240,6 +262,8 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+
+    margin-bottom: 8px;
 }
 
 .portfolio-item-descr{
@@ -252,6 +276,22 @@ img{
 
 .page-bottom{
     background-color: #2e2f42;
+
+    padding: 100px 0;
+}
+
+.logo-left-bottom {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4D5AE5;
+
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-right-bottom{
@@ -271,4 +311,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+
+    max-width: 264px;
 }
