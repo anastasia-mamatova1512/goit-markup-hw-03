@@ -82,6 +82,7 @@ img{
     color: #2E2F42;
 
     padding: 24px 0;
+    display: block;
 }
 
 .navigation-item:hover,
@@ -96,6 +97,7 @@ img{
 .adress-list{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .address-item{
